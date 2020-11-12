@@ -13,7 +13,7 @@ public class Main extends Application {
 
         //setting scene settings
         primaryStage.setTitle("Currency Converter");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setScene(new Scene(root, 600, 275));
         primaryStage.show();
     }
 
