@@ -24,7 +24,7 @@
    <children>
       <Button fx:id="btn_convert" mnemonicParsing="false" onMouseClicked="#doConvertion" prefHeight="32.0" prefWidth="111.0" text="Convert" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
       <TextField fx:id="txtf_euroInput" maxWidth="150.0" minWidth="150.0" prefHeight="26.0" prefWidth="140.0" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
-      <TextField fx:id="txtf_yenInput" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="160.0" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
+      <TextField fx:id="txtf_convertedTo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="160.0" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
       <Text fx:id="txt_euro" strokeType="OUTSIDE" strokeWidth="0.0" text="Euro" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
          <GridPane.margin>
             <Insets left="50.0" />
